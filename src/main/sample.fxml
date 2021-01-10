@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controller.Controller">
+   <children>
+      <ListView fx:id="clientListView" prefWidth="120.0" translateZ="1.0" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="140.0" />
+      <ListView fx:id="storageListView" prefWidth="120.0" translateZ="1.0" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="120.0" AnchorPane.topAnchor="140.0" />
+      <ListView fx:id="materialListView" prefWidth="120.0" translateZ="1.0" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="240.0" AnchorPane.topAnchor="140.0" />
+      <ListView fx:id="woodListView" prefWidth="120.0" translateZ="1.0" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="360.0" AnchorPane.topAnchor="140.0" />
+      <ListView fx:id="lastListView" prefWidth="120.0" translateZ="1.0" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="480.0" AnchorPane.topAnchor="140.0" />
+
+      <Pane prefHeight="20.0" prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="table1" layoutX="0"   layoutY="120" prefHeight="20" prefWidth="120"/>
+            <Label fx:id="table2" layoutX="120" layoutY="120" prefHeight="20" prefWidth="120"/>
+            <Label fx:id="table3" layoutX="240" layoutY="120" prefHeight="20" prefWidth="120"/>
+            <Label fx:id="table4" layoutX="360" layoutY="120" prefHeight="20" prefWidth="120"/>
+            <Label fx:id="table5" layoutX="480" layoutY="120" prefHeight="20" prefWidth="120"/>
+         </children>
+      </Pane>
+      <Button fx:id="addButton"           layoutX="0"   AnchorPane.bottomAnchor="0" text="Add"           prefWidth="80" prefHeight="60"/>
+      <Button fx:id="deleteButton"        layoutX="80"  AnchorPane.bottomAnchor="0" text="Delete"        prefWidth="80" prefHeight="60"/>
+      <Button fx:id="updateButton"        layoutX="160" AnchorPane.bottomAnchor="0" text="Update"        prefWidth="80" prefHeight="60"/>
+      <Button fx:id="showAllOrdersBtn"    layoutX="240" AnchorPane.bottomAnchor="0" text="All Orders"    prefWidth="80" prefHeight="60"/>
+      <Button fx:id="showAllMaterialsBtn" layoutX="320" AnchorPane.bottomAnchor="0" text="All Materials" prefWidth="80" prefHeight="60"/>
+      <Button fx:id="showAllWoodBtn"      layoutX="400" AnchorPane.bottomAnchor="0" text="All Woods"     prefWidth="80" prefHeight="60"/>
+      <Button fx:id="showAllWorkersBtn"   layoutX="480" AnchorPane.bottomAnchor="0" text="All Workers"   prefWidth="80" prefHeight="60"/>
+      <Pane fx:id="fieldsHolder" prefHeight="120.0" prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TextArea fx:id="field0" layoutX="0.0" layoutY="15.0" prefHeight="45.0" prefWidth="120.0" />
+            <TextArea fx:id="field1" layoutX="120.0" layoutY="15.0" prefHeight="45.0" prefWidth="120.0" />
+            <TextArea fx:id="field2" layoutX="240.0" layoutY="15.0" prefHeight="45.0" prefWidth="120.0" />
+            <TextArea fx:id="field3" layoutX="360.0" layoutY="15.0" prefHeight="45.0" prefWidth="120.0" />
+            <TextArea fx:id="field4" layoutX="480.0" layoutY="15.0" prefHeight="45.0" prefWidth="120.0" />
+            <TextArea fx:id="field5" layoutX="0.0" layoutY="75.0" prefHeight="45.0" prefWidth="120.0" />
+            <TextArea fx:id="field6" layoutX="120.0" layoutY="75.0" prefHeight="45.0" prefWidth="120.0" />
+            <TextArea fx:id="field7" layoutX="240.0" layoutY="75.0" prefHeight="45.0" prefWidth="120.0" />
+            <TextArea fx:id="field8" layoutX="360.0" layoutY="75.0" prefHeight="45.0" prefWidth="120.0" />
+            <TextArea fx:id="field9" layoutX="480.0" layoutY="75.0" prefHeight="45.0" prefWidth="120.0" />
+            <Label fx:id="label0" layoutX="0.0" layoutY="0.0" prefHeight="15.0" prefWidth="120.0" />
+            <Label fx:id="label1" layoutX="120.0" layoutY="0.0" prefHeight="15.0" prefWidth="120.0" />
+            <Label fx:id="label2" layoutX="240.0" layoutY="0.0" prefHeight="15.0" prefWidth="120.0" />
+            <Label fx:id="label3" layoutX="360.0" layoutY="0.0" prefHeight="15.0" prefWidth="120.0" />
+            <Label fx:id="label4" layoutX="480.0" layoutY="0.0" prefHeight="15.0" prefWidth="120.0" />
+            <Label fx:id="label5" layoutX="0.0" layoutY="60.0" prefHeight="15.0" prefWidth="120.0" />
+            <Label fx:id="label6" layoutX="120.0" layoutY="60.0" prefHeight="15.0" prefWidth="120.0" />
+            <Label fx:id="label7" layoutX="240.0" layoutY="60.0" prefHeight="15.0" prefWidth="120.0" />
+            <Label fx:id="label8" layoutX="360.0" layoutY="60.0" prefHeight="15.0" prefWidth="120.0" />
+            <Label fx:id="label9" layoutX="480.0" layoutY="60.0" prefHeight="15.0" prefWidth="120.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
